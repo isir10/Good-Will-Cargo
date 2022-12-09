@@ -1,0 +1,80 @@
+body {
+  background-color: #d2f6fe;
+  align-items: center;
+  /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPGsVWjEM9oQs4vgDuJImY62Gola81e2cCCyj9ct6bhUuCca2EzQNGCUwLY5MuZczIdYg&usqp=CAU);  */
+}
+.products {
+  padding: 4rem;
+  background-color: #d2f6fe;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.product__container {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  max-width: 1120px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.product__wrapper {
+    margin-bottom: 14px;
+  display: flex;
+  flex: 1;
+  margin: 0 1rem;
+  border-radius: 100px;
+  flex-flow: column;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.product__list {
+  position: relative;
+  margin: 50px 0 45px;
+  margin-top: 20px;
+}
+
+.product-img {
+  width: 17rem;
+  height: 13rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* padding-top: 80%;
+  overflow: hidden; */
+}
+
+.product-details {
+  margin-bottom: 10px;
+}
+
+.product-div {
+  display: inline-block;
+  margin: 1rem 2rem;
+}
+
+.request-form{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-grow: 1;
+  padding-bottom: 1rem;
+
+
+}
+.send-request {
+  font-family: 'Nunito', sans-serif;
+  font-size: 22px;
+  padding: 0.25rem;
+  border-radius: 0.5rem;
+}
